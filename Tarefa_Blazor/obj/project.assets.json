@@ -1637,7 +1637,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wcogeo.SERVERGEO\\.nuget\\packages\\": {},
+    "C:\\Users\\breno\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
@@ -1647,7 +1647,7 @@
       "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefa_Blazor\\Tarefa_Blazor.csproj",
       "projectName": "Tarefa_Blazor",
       "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefa_Blazor\\Tarefa_Blazor.csproj",
-      "packagesPath": "C:\\Users\\wcogeo.SERVERGEO\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
       "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefa_Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -1655,7 +1655,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\wcogeo.SERVERGEO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1665,6 +1665,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "E:\\BIBLIOTECAS E DLLS\\FastReport-Dll": {},
         "E:\\PRODUTIVIDADE-CODIGOS\\Fast-Report\\Nugets\\Core3": {},
         "https://api.nuget.org/v3/index.json": {}
       },

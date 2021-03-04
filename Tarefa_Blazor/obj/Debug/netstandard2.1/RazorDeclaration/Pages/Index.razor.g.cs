@@ -84,7 +84,7 @@ using Tarefa_Blazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\Pages\Index.razor"
+#line 52 "E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\Pages\Index.razor"
       
 
     public class Tarefa
@@ -95,9 +95,29 @@ using Tarefa_Blazor.Shared;
         public DateTime DataCriacao { get; set; }
 
     }
-
     private string novaTarefa = "";
+    public void AdicionarNovaTarefa()
+    {
+
+
+        tarefas.Add(new Tarefa
+        {
+            DataCriacao = DateTime.Now,
+            Descricao = novaTarefa,
+            ID = Guid.NewGuid()
+
+        });
+    }
     private List<Tarefa> tarefas = new List<Tarefa>();
+    private Tarefa tarefa = new Tarefa();
+
+    public void RemoverTarefa(Guid id)
+    {
+        tarefas.Remove(tarefas.First(a=> a.ID == id));
+    }
+
+
+
 
     protected override async Task OnInitializedAsync()
     {

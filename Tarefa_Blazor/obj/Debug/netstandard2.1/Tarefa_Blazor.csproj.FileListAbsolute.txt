@@ -349,6 +349,6 @@ E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\bin\Debug\netsta
 E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.br
-E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\obj\Debug\netstandard2.1\integrity\nHHf4FbzY9uo5LuTHK40RTKsgAhwM4i9pBzNP-yWVbs=.hash
-E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\obj\Debug\netstandard2.1\integrity\HGw_rqDbJsoNXNvytECvwgWuU1dDA19wj3W1A86Gx_Y=.hash
-E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\obj\Debug\netstandard2.1\integrity\ms4UUXX55pWMdo4ZXQ_ZzJ_m-zEZR_KyFLcOLJ0sE8Y=.hash
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\obj\Debug\netstandard2.1\integrity\gL0gWsbbkHXv8Jyr_GR_8QbyI3FEWNTrNaKveCgQRdM=.hash
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\obj\Debug\netstandard2.1\integrity\wjBnjpsy7G7Xght-FAgF3BptHskznwtF5jLNroAQCRc=.hash
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Tarefa_Blazor\Tarefa_Blazor\obj\Debug\netstandard2.1\integrity\CcYHnwR7rZrN-GPNSPuVxJIWSOL61biBkn9TbUOPzLM=.hash

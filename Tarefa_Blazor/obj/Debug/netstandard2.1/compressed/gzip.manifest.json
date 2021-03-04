@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\nHHf4FbzY9uo5LuTHK40RTKsgAhwM4i9pBzNP-yWVbs=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\gL0gWsbbkHXv8Jyr_GR_8QbyI3FEWNTrNaKveCgQRdM=.hash",
       "Source": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefa_Blazor\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Tarefa_Blazor.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Tarefa_Blazor.dll.gz"
     },
@@ -261,32 +261,32 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HGw_rqDbJsoNXNvytECvwgWuU1dDA19wj3W1A86Gx_Y=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wjBnjpsy7G7Xght-FAgF3BptHskznwtF5jLNroAQCRc=.hash",
       "Source": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefa_Blazor\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Tarefa_Blazor.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Tarefa_Blazor.pdb.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
-      "Source": "C:\\Users\\wcogeo.SERVERGEO\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.3.2.0.js",
+      "Source": "C:\\Users\\breno\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.3.2.0.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.3.2.0.js.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
-      "Source": "C:\\Users\\wcogeo.SERVERGEO\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.timezones.dat",
+      "Source": "C:\\Users\\breno\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.timezones.dat",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.timezones.dat.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
-      "Source": "C:\\Users\\wcogeo.SERVERGEO\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.wasm",
+      "Source": "C:\\Users\\breno\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.wasm",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.wasm.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash",
-      "Source": "C:\\Users\\wcogeo.SERVERGEO\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.build\\3.2.1\\tools\\blazor\\blazor.webassembly.js",
+      "Source": "C:\\Users\\breno\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.build\\3.2.1\\tools\\blazor\\blazor.webassembly.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ms4UUXX55pWMdo4ZXQ_ZzJ_m-zEZR_KyFLcOLJ0sE8Y=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\CcYHnwR7rZrN-GPNSPuVxJIWSOL61biBkn9TbUOPzLM=.hash",
       "Source": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefa_Blazor\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }
