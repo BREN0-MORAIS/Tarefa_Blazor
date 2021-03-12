@@ -13,64 +13,71 @@ namespace Tarefas_Blazor.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\_Imports.razor"
+#line 1 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\_Imports.razor"
+#line 2 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\_Imports.razor"
+#line 3 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\_Imports.razor"
+#line 4 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\_Imports.razor"
+#line 5 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\_Imports.razor"
+#line 6 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\_Imports.razor"
+#line 7 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\_Imports.razor"
+#line 8 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
 using Tarefas_Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\_Imports.razor"
+#line 9 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
 using Tarefas_Blazor.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\_Imports.razor"
+using Tarefas_Blazor.Entidades;
 
 #line default
 #line hidden
@@ -84,46 +91,13 @@ using Tarefas_Blazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 54 "D:\_DESENVOLVIMENTO\CODIGO FONTE\Blazor_Tarefa\Tarefas_Blazor\Tarefas_Blazor\Pages\Index.razor"
+#line 9 "E:\_DEV BRENO-MORAIS\_Código-Fonte\BlazorApp\Tarefa_Blazor\Tarefas_Blazor\Pages\Index.razor"
       
-
-    public class Tarefa
-    {
-        public Guid ID { get; set; }
-        public string Descricao { get; set; }
-        public bool Concluido { get; set; }
-        public DateTime DataCriacao { get; set; }
-
-    }
-    private string novaTarefa = "";
-    public void AdicionarNovaTarefa()
-    {
-
-
-        tarefas.Add(new Tarefa
-        {
-            DataCriacao = DateTime.Now,
-            Descricao = novaTarefa,
-            ID = Guid.NewGuid()
-
-        });
-    }
-    private List<Tarefa> tarefas = new List<Tarefa>();
-    private Tarefa tarefa = new Tarefa();
-
-    public void RemoverTarefa(Guid id)
-    {
-        tarefas.Remove(tarefas.First(a => a.ID == id));
-    }
-
-
-
-
+    List<Tarefa> tarefas = new List<Tarefa>();
     protected override async Task OnInitializedAsync()
     {
         tarefas = await http.GetFromJsonAsync<List<Tarefa>>("Dados/tarefas.json");
     }
-
 
 #line default
 #line hidden
