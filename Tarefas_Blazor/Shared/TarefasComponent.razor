@@ -1,7 +1,7 @@
 ﻿@page "/"
 @inject HttpClient http
 
-
+<h1>@Titulo</h1>
 @if (tarefas == null)
 {
     <AlertComponent Menssagem="Ainda Não tem tarefas"></AlertComponent>
@@ -53,16 +53,17 @@ else
 }
 @code{
 
-    public class Tarefa
-    {
+    [Parameter]
+    public List<Tarefa> tarefas { get; set; }
+     [Parameter]
+    public string Titulo { get; set; }
 
+  @*  private List<Tarefa> tarefas = new List<Tarefa>();*@
+    private Tarefa tarefa = new Tarefa();
 
-    }
     private string novaTarefa = "";
     public void AdicionarNovaTarefa()
     {
-
-
         tarefas.Add(new Tarefa
         {
             DataCriacao = DateTime.Now,
@@ -71,8 +72,7 @@ else
 
         });
     }
-    private List<Tarefa> tarefas = new List<Tarefa>();
-    private Tarefa tarefa = new Tarefa();
+
 
     public void RemoverTarefa(Guid id)
     {
@@ -82,6 +82,6 @@ else
 
 
 
-    
+
 
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RFdX4+eJjavalPJPklzxkRDWhHtal/dDyq25qaCfoeLjxROGFi2XFnppYMcXVx0ntZhqglhXlyX/NOmN91WAog==",
+  "dgSpecHash": "WrjiGLSULg07HUQdTX60QK7t9wp8uo7Vgl6dqd+C9sSknmYjquugUPF4lIb7l9n7ld/gZNm6tfVNDVKG1Iu3sQ==",
   "success": true,
-  "projectFilePath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\BlazorApp\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj",
+  "projectFilePath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\breno\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\breno\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",

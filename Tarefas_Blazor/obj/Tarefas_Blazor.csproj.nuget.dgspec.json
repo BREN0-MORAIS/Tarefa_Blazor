@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\BlazorApp\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj": {}
+    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj": {}
   },
   "projects": {
-    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\BlazorApp\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj": {
+    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\BlazorApp\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj",
+        "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj",
         "projectName": "Tarefas_Blazor",
-        "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\BlazorApp\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj",
+        "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefas_Blazor\\Tarefas_Blazor.csproj",
         "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-        "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\BlazorApp\\Tarefa_Blazor\\Tarefas_Blazor\\obj\\",
+        "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Tarefa_Blazor\\Tarefas_Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.1.21103.13\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
         }
       }
     }

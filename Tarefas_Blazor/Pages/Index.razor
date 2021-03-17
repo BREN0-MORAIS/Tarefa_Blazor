@@ -1,9 +1,9 @@
 ﻿@page "/"
 @inject HttpClient http;
 
-<h1>Tarefas</h1>
 
-<TarefasComponent></TarefasComponent>
+
+<TarefasComponent Titulo="Tarefas" tarefas="GetTarefas()"></TarefasComponent>
 
 
 @code{
@@ -11,5 +11,9 @@
     protected override async Task OnInitializedAsync()
     {
         tarefas = await http.GetFromJsonAsync<List<Tarefa>>("Dados/tarefas.json");
+    }
+
+    private List<Tarefa> GetTarefas(){
+        return tarefas;
     }
 }
